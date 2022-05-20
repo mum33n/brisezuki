@@ -7,6 +7,9 @@ module.exports = {
         white:"rgb(256, 256, 255)",
         darkBlue:'#010139',
         shade:'#0e153a'
+      },
+      width: {
+        '30': '30%',
       }
     },
   },

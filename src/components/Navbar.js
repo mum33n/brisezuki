@@ -3,7 +3,7 @@ import { useState } from "react"
 export default function Navbar(params) {
     const [toggle, isTogg]=useState(false)
     return(
-        <nav className="py-5 w-full px-10 flex-wrap items-center justify-between flex">
+        <nav style={{zIndex:100000}} className="py-5 sticky top-0 left-0 bg-shade w-full px-10 flex-wrap items-center justify-between flex">
             <a href="#" className="text-slate-100 text-4xl font-bold"><h1>LOGO</h1></a>
             <div className="hidden md:flex">
                 <a href="#roadmap" className="ml-3">ROADMAP</a>

@@ -2,16 +2,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import airdrop from '../assets/airdrop2.png'
 import market from '../assets/market.png'
 import game from '../assets/game.png'
+import acad from '../assets/acad.png'
 import FeaturesCard from "./cards/FeaturesCard";
 export default function Info(params) {
     return(
         <div>
             <div className="text-slate-100 py-20 px-10 wow fadeInUp" data-wow-duration="2s">
         <h1 className="text-3xl mb-10 md:w-2/3 mx-auto md:text-6xl text-center font-bold wow fadeInUp" data-wow-duration="2s">Why Zuki Inu?</h1>
-        <div className="flex flex-wrap justify-between">
+        <div className="flex flex-row gap-5 flex-wrap justify-between">
             <FeaturesCard img={airdrop} title={'Airdrop Dispenser'}/>
             <FeaturesCard img={market} title={'NFT Marketplace'}/>
             <FeaturesCard img={game} title={'P2E Games Development'}/>
+            <FeaturesCard img={acad} title={'Zuki Academy'}/>
         </div>
     </div>
     <div className="text-slate-100 py-20 px-10 wow fadeInUp" data-wow-duration="2s">
