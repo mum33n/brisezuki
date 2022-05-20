@@ -32,7 +32,7 @@ export default function Tokenomics() {
         ]
       }
     return(<div>
-        <h1 className='text-center font-bold text-3xl md:text-6xl text-slate-800 wow fadeInUp' data-wow-duration="2s">Tokenomics</h1>
+        <h1 className='text-center font-bold text-3xl md:text-6xl text-slate-100 wow fadeInUp' data-wow-duration="2s">Tokenomics</h1>
         <div className='flex flex-wrap p-5'>
             <div className='w-full md:w-1/2 wow fadeInUp' data-wow-duration="2s">
                 <div className='w-2/3 md:2/3 mx-auto wow fadeInUp' data-wow-duration="2s">
