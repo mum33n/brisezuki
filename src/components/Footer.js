@@ -1,6 +1,6 @@
 export default function Footer(params) {
     return(
-        <div className="bg-slate-800 p-5">
+        <div className="bg-slate-900 p-5">
             <div className="flex justify-between items-center">
                 <div>
                     <h1 className="text-4xl md:text-6xl font-bold">LOGO</h1>

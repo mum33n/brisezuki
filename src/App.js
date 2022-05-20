@@ -19,8 +19,8 @@ config.autoAddCss = false
 
 function App() {
   return (
-    <div className="bg-slate-200 w-full text-white">
-      <div className='bg-slate-900'>
+    <div className="bg-darkBlue w-full text-white">
+      <div className='bg-darkBlue'>
         <Navbar/>
         <Banner/>
       </div>
