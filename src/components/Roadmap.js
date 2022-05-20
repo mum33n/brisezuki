@@ -6,19 +6,18 @@ export default function Roadmap(params) {
         <div className="flex items-center flex-col my-20 md:flex-row gap-10">
             <div className="w-100 md:w-1/2 shadow-lg bg-slate-100 p-5 wow fadeInUp" data-wow-duration="2s">
                 <h1 className="font-bold">Phase 1</h1>
-                <div>Token supply (100,000,000,000 ZUK-INU Tokens)</div>
                 <div>Launch Twitter, Telegram and other social media</div>
-                <RoadItem title={'Meme, art contest for whitelist'}/>
+                {/* <RoadItem title={'Meme, art contest for whitelist'}/> */}
                 <RoadItem title={'Launch presale on Doken.exchange once KYC passed'}/>
                 <RoadItem title={'Launch live on thesphyxn.co after presale'}/>
-                <RoadItem title={'Launch staking on Doken.exchange (ZUKI/ZUKI pool)'}/>
-                <RoadItem title={'Launch partnership staking on Doken.exchange (ZUKI/other pool)'}/>
+                {/* <RoadItem title={'Launch staking on Doken.exchange (ZUKI/ZUKI pool)'}/> */}
+                {/* <RoadItem title={'Launch partnership staking on Doken.exchange (ZUKI/other pool)'}/> */}
                 <RoadItem title={'Initiate partnership with other projects on Brise such as Brisezilla, Broge'}/>
                 <RoadItem title={'Three categories of NFTs giveways for (presale buyers and Liquidity providers, 90days pool stakers)'}/>
                 <RoadItem title={'Marketing push to spread more awareness about ZUKI and Bitgert Blockchain with (Bloomberg, Yahoo Finance)'}/>
                 <RoadItem title={'Coin listing submission'}/>
                 <RoadItem title={'Partnership with Mixed Reality and Brise Paradies '}/>
-                <RoadItem title={'Explore additional partnerships with other Brise projects'}/>
+                {/* <RoadItem title={'Explore additional partnerships with other Brise projects'}/> */}
                 <RoadItem title={'Launch ZUKI Bitgert academy were tutors educate old and new member on Bitgert chain about Crypto, NFTs, DEFI, Security. '}></RoadItem>
 
             </div>

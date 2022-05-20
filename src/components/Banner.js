@@ -7,6 +7,7 @@ export default function Banner(params) {
                     <div className="text-lg pt-3 pb-10 text-left wow fadedeInUp" data-wow-duration="5s">
                     with Zuki Bitgert Academy, where people will be educated about zero gas fee, Security, DEFI, NFT, and Merit of Bitgert chain over Sol, BSC, ETH and others chain. In other to bring BRC20 to mass adoption.
                     </div>
+                    <a href="/" className=" bg-slate-200 inline-block shadow-lg py-3 px-5 text-slate-800 rounded-full">Swap Token</a>
                 </div>
             </div>
         </div>
