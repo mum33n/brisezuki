@@ -1,5 +1,5 @@
 export default function InfoCard({src, name, price}) {
-    return(<div className="bg-slate-100 w-4/6 md:w-1/6 pb-5 rounded-lg shadow-lg">
+    return(<div className="bg-slate-100 w-2/5 md:w-1/6 pb-5 rounded-lg shadow-lg">
         <img src={src} className="mx-auto d-block"/>
         <div className="flex text-slate-800 p-2 justify-between">
             <div className="flex">

@@ -1,18 +1,19 @@
 import RoadItem from "./RoadItem";
 
 export default function Roadmap(params) {
-    return(<div className="text-slate-100 pb-20 px-10">
+    return(<div id='roadmap' className="text-slate-100 pb-20 px-10">
         <h1 className="text-6xl text-center text-2xl md:text-6xl font-bold">Roadmap</h1>
         <div className="slick">
         <div className="container1">
                         <div className="timeline">
                           <ul> 
-                            <li className="">
+                            <li className="wow fadeInUp">
                               <div className="timeline-content">
                                 <p className="date">PHASE 1</p> 
                                 <ul className="road-lists">
                                 <RoadItem checked title={'Launch of website'}/>
                                 <RoadItem title={'Initiate Social Media Airdrops'}/>
+                                <RoadItem title={'Meme, Art Contest for whitelist'}/>
                                 <RoadItem title={'Launch of Presale'}/>
                                 <RoadItem title={'Launch on thsphyxn'}/>
                                 <RoadItem title={'Initial Partnership'}/>
@@ -21,7 +22,7 @@ export default function Roadmap(params) {
                                 </ul>
                               </div>
                             </li>
-                            <li className="">
+                            <li className=" wow fadeInUp">
                               <div className="timeline-content">
                                 <p className="date">PHASE 2</p>
                                 <ul className="road-lists">
@@ -32,11 +33,10 @@ export default function Roadmap(params) {
                                 </ul> 
                               </div>
                             </li>
-                            <li className="">
+                            <li className="wow fadeInUp">
                               <div className="timeline-content">
                                 <p className="date">PHASE 3</p>
                                 <ul className="road-lists">
-                                    <RoadItem title={'Meme, Art Contest for whitelist'}/>
                                     <RoadItem title={'Mint first batch of ZUKI NFTs'}/>
                                     <RoadItem title={'Explore additional partnerships'}/>
                                     <RoadItem title={'First donation to a community voted charity'}/>
@@ -45,7 +45,7 @@ export default function Roadmap(params) {
                                 </ul> 
                               </div>
                             </li>
-                            <li className="">
+                            <li className="wow fadeInUp">
                               <div className="timeline-content">
                                 <p className="date">PHASE 4</p>
                                 <ul className="road-lists">
