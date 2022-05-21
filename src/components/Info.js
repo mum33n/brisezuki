@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import airdrop from '../assets/airdrop2.png'
 import market from '../assets/market.png'
 import game from '../assets/game.png'
