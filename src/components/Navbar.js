@@ -9,7 +9,7 @@ export default function Navbar(params) {
                 <a href="#why" className="ml-3 hover:text-slate-300">WHY?</a>
                 <a href="#roadmap" className="ml-3 hover:text-slate-300">ROADMAP</a>
                 <a href="#tokenomics" className="ml-3 hover:text-slate-300">TOKENOMICS</a>
-                <a href="#roadmap" className="ml-3 hover:text-slate-300">ACADEMY</a>
+                <a href="https://t.me/ZUKI_Bitgert_Academy" className="ml-3 hover:text-slate-300">ACADEMY</a>
                 
             </div>
             <div onClick={()=>{
