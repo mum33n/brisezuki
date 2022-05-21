@@ -10,7 +10,7 @@ export default function Footer(params) {
                     <a href="https://t.me/ZUKI_Brise" ><span></span> Telegram</a>
                 </div>
             </div>
-            <div>&copy; 2022, BRISE ZUKI</div>
+            <div>&copy; 2022, ZUKI BRISE</div>
         </div>
     )
 };

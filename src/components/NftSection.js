@@ -22,7 +22,7 @@ export default function NftSection() {
             <InfoCard src={img2} price={'100'}/>
             <InfoCard src={img3} price={'100'}/>
             <InfoCard src={img4} price={'100'}/>
-            <InfoCard src={img5} price={'100'}/>
+            {/* <InfoCard src={img5} price={'100'}/> */}
         </div>
         <div className='overlay flex items-center justify-center' style={style}>
             <div className='text-3xl'>Coming Soon...</div>
