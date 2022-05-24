@@ -1,10 +1,11 @@
 import { useState } from "react"
+import logo from '../assets/LOGO.png'
 
 export default function Navbar(params) {
     const [toggle, isTogg]=useState(false)
     return(
-        <nav style={{zIndex:100000}} className="py-5 sticky top-0 left-0 bg-shade w-full px-10 flex-wrap items-center justify-between flex">
-            <a href="#" className="text-slate-100 text-4xl font-bold"><h1>LOGO</h1></a>
+        <nav style={{zIndex:100000}} className="py-2 sticky top-0 left-0 bg-shade w-full px-10 flex-wrap items-center justify-between flex">
+            <a href="#" className="text-slate-100 text-4xl font-bold"><img src={logo} className='block' width='75px' alt="logo"/></a>
             <div className="hidden md:flex">
                 <a href="#why" className="ml-3 hover:text-slate-300">WHY?</a>
                 <a href="#roadmap" className="ml-3 hover:text-slate-300">ROADMAP</a>

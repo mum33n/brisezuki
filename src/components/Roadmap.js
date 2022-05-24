@@ -15,7 +15,7 @@ export default function Roadmap(params) {
                                 <RoadItem title={'Initiate Social Media Airdrops'}/>
                                 <RoadItem title={'Meme, Art Contest for whitelist'}/>
                                 <RoadItem title={'Launch of Presale'}/>
-                                <RoadItem title={'Launch on thsphyxn'}/>
+                                <RoadItem title={'Launch on thesphyxn'}/>
                                 <RoadItem title={'Initial Partnership'}/>
                                 <RoadItem title={'Marketing with (Bloomberg, Yahoo Finance)'}/>
                                 <RoadItem title={'Coin Listing Submission'}/>
